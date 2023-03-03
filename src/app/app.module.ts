@@ -5,9 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { NavButtonComponent } from './shared/sidebar/nav-button/nav-button.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, DashboardComponent, SidebarComponent, NavButtonComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
