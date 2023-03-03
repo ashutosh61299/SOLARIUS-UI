@@ -1,23 +1,40 @@
 <div class="sidebar-container">
-  <div class="logo-container">SOLARIUS</div>
+  <div class="logo-container">
+    <div><img src="../../../assets/logo.png" alt="logo" /></div>
+    SOLARIUS
+  </div>
   <div class="nav-container">
     <ul>
-      <li class="main-links">Dashboard</li>
-      <li class="main-links">Education</li>
+      <li class="main-links icon-and-label selected">
+        <mat-icon>equalizer</mat-icon>
+        Dashboard
+      </li>
+      <li class="main-links icon-and-label">
+        <mat-icon>bubble_chart</mat-icon>Education
+      </li>
       <li class="main-links">
-        Resources
-        <ul>
-          <li>Genetics101</li>
-          <li>DNA synthesis</li>
-          <li>Events</li>
+        <span (click)="toggleResources()" class="icon-and-label">
+          <mat-icon>collections_bookmark</mat-icon> Resources
+        </span>
+        <ul *ngIf="resourcesExpanded">
+          <li><span class="color-box pink"></span>Genetics101</li>
+          <li><span class="color-box orange"></span>DNA synthesis</li>
+          <li><span class="color-box blue"></span>Events</li>
         </ul>
       </li>
-      <li class="main-links">Settings</li>
+      <li class="main-links icon-and-label">
+        <mat-icon>settings</mat-icon>
+
+        Settings
+      </li>
     </ul>
   </div>
   <div class="logout-btn-container">
     <ul>
-      <li class="main-links">Log out</li>
+      <li class="main-links logout">
+        <span class="round-btn"> <mat-icon>logout</mat-icon> </span>
+        Log out
+      </li>
     </ul>
   </div>
 </div>

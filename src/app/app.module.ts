@@ -8,14 +8,21 @@ import { MatButtonModule } from '@angular/material/button';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { NavButtonComponent } from './shared/sidebar/nav-button/nav-button.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
-  declarations: [AppComponent, DashboardComponent, SidebarComponent, NavButtonComponent],
+  declarations: [
+    AppComponent,
+    DashboardComponent,
+    SidebarComponent,
+    NavButtonComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
