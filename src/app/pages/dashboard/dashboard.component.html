@@ -1,1 +1,43 @@
-<p>dashboard works!</p>
+<div class="dashboard-container">
+  <div class="left-box">
+    <div class="left-box-container">
+      <div class="plan-box">
+        <div class="labels-col">
+          <h3>Today's Plan</h3>
+          <p>June 14th, 2022</p>
+        </div>
+        <div class="plus-box round-btn">
+          <mat-icon>add</mat-icon>
+        </div>
+      </div>
+      <h2>Sustainable development goals and health innovation</h2>
+      <div class="meeting-box">
+        <div class="avatars">
+          <app-multiple-avatars
+            [persons]="meetingPersons"
+          ></app-multiple-avatars>
+        </div>
+        <div class="meeting-time">
+          <h4>Medi Team Meeting</h4>
+          <p>13:30 - 14:50</p>
+        </div>
+      </div>
+      <div class="weekly-report-container">
+        <h3>Weekly report</h3>
+        <p>Track Your Performance</p>
+        <div class="cta1 view-report-btn">View Report</div>
+      </div>
+      <div class="study-analyses-container">
+        <div class="study-box">
+          <h3>Study 78X</h3>
+          <p><mat-icon>schedule</mat-icon> In Progress</p>
+        </div>
+        <div class="analyses-box">
+          <h3>Analyses</h3>
+          <p><mat-icon>task_alt</mat-icon> Completed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="right-box"><div class="right-box-container">HELLO</div></div>
+</div>

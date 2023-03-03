@@ -1,0 +1,16 @@
+<div class="avatars-container">
+  <img [src]="persons[0]" alt="" *ngIf="persons.length > 0" />
+  <img
+    [src]="p"
+    alt=""
+    *ngFor="let p of personsSub; let i = index"
+    [ngStyle]="{ position: 'absolute', left: 20 + i * 20 + 'px' }"
+  />
+  <span
+    class="counter-box"
+    *ngIf="persons.length > 3"
+    style="position: absolute; left: 60px"
+  >
+    +{{ persons.length - 3 }}
+  </span>
+</div>

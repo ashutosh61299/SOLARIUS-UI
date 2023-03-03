@@ -1,0 +1,20 @@
+.avatars-container {
+  position: relative;
+}
+
+.counter-box,
+.avatars-container > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.counter-box {
+  background-color: #f9dabb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  user-select: none;
+}

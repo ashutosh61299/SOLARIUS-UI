@@ -9,6 +9,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { NavButtonComponent } from './shared/sidebar/nav-button/nav-button.component';
 import { MatIconModule } from '@angular/material/icon';
+import { MultipleAvatarsComponent } from './pages/dashboard/multiple-avatars/multiple-avatars.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { MatIconModule } from '@angular/material/icon';
     DashboardComponent,
     SidebarComponent,
     NavButtonComponent,
+    MultipleAvatarsComponent,
   ],
   imports: [
     BrowserModule,
