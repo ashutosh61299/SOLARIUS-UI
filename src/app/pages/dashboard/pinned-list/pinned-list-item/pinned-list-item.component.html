@@ -1,0 +1,16 @@
+<div class="pinned-list-item-container">
+  <div class="head">
+    <p>{{ data.head }}</p>
+    <p>{{ data.day }}</p>
+  </div>
+  <h4>{{ data.title }}</h4>
+  <p *ngIf="data.type === 'New Feedback'" class="type">
+    <mat-icon>star</mat-icon> {{ data.type }}
+  </p>
+  <p *ngIf="data.type === 'Deadline is today'" class="type">
+    <mat-icon>error</mat-icon> {{ data.type }}
+  </p>
+  <p *ngIf="data.type === 'Accepted'" class="type">
+    <mat-icon>check_circle</mat-icon> {{ data.type }}
+  </p>
+</div>

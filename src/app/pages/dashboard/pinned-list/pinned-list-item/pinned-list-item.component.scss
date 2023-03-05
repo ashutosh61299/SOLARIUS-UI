@@ -1,0 +1,18 @@
+.type {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  .mat-icon {
+    margin-right: 0.5rem;
+  }
+}
+
+.pinned-list-item-container {
+  padding: 0.5rem;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}

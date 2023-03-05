@@ -1,0 +1,11 @@
+.pinned-list-container {
+  display: grid;
+  grid-auto-rows: 60px;
+  gap: 10px;
+}
+
+.app-pinned-list-item {
+  grid-row: span 2;
+  border: 1px solid #00000039;
+  border-radius: 5px;
+}

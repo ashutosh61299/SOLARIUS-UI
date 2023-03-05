@@ -10,6 +10,8 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { NavButtonComponent } from './shared/sidebar/nav-button/nav-button.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MultipleAvatarsComponent } from './pages/dashboard/multiple-avatars/multiple-avatars.component';
+import { PinnedListComponent } from './pages/dashboard/pinned-list/pinned-list.component';
+import { PinnedListItemComponent } from './pages/dashboard/pinned-list/pinned-list-item/pinned-list-item.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { MultipleAvatarsComponent } from './pages/dashboard/multiple-avatars/mul
     SidebarComponent,
     NavButtonComponent,
     MultipleAvatarsComponent,
+    PinnedListComponent,
+    PinnedListItemComponent,
   ],
   imports: [
     BrowserModule,
