@@ -4,7 +4,7 @@
       <div class="plan-box">
         <div class="labels-col">
           <h3>Today's Plan</h3>
-          <p>June 14th, 2022</p>
+          <p class="light-text">June 14th, 2022</p>
         </div>
         <div class="plus-box round-btn">
           <mat-icon>add</mat-icon>
@@ -19,7 +19,7 @@
         </div>
         <div class="meeting-time">
           <h4>Medi Team Meeting</h4>
-          <p>13:30 - 14:50</p>
+          <p class="light-text">13:30 - 14:50</p>
         </div>
       </div>
       <div class="weekly-report-container">
@@ -44,11 +44,75 @@
       <div class="monthly-pinned-box">
         <div class="pinned-box">
           <h3>Monthly Pinned</h3>
-          <p>View all</p>
+          <p class="light-text">View all</p>
         </div>
         <app-pinned-list class="pinned-list"></app-pinned-list>
+        <div class="my-learnings-label">
+          <div class="labels">
+            <h3>My Learnings</h3>
+            <p class="light-text">Your Progress of medical lectures</p>
+          </div>
+          <mat-icon>more_horiz</mat-icon>
+        </div>
+        <div class="learning_row">
+          <div class="learning-box">
+            <div class="icon-box" style="background-color: #e9e9e9">
+              <mat-icon style="color: #495e85">coronavirus</mat-icon>
+            </div>
+            <div class="learning-name">
+              <h5>Viruses</h5>
+              <p class="light-text">96% Progress</p>
+            </div>
+          </div>
+          <div class="learning-box">
+            <div class="icon-box" style="background-color: #fceee5">
+              <mat-icon style="color: #f9bd90">biotech</mat-icon>
+            </div>
+            <div class="learning-name">
+              <h5>Bacterial cells</h5>
+              <p class="light-text">33% Progress</p>
+            </div>
+          </div>
+        </div>
+        <div class="learning_row">
+          <div class="learning-box">
+            <div class="icon-box" style="background-color: #f7ece9">
+              <mat-icon style="color: #ddabb0">medication</mat-icon>
+            </div>
+            <div class="learning-name">
+              <h5>Med Science</h5>
+              <p class="light-text">7% Progress</p>
+            </div>
+          </div>
+          <div class="learning-box">
+            <div class="icon-box" style="background-color: #e8ebea">
+              <mat-icon style="color: #9aaeb1">psychology_alt</mat-icon>
+            </div>
+            <div class="learning-name">
+              <h5>Human Science</h5>
+              <p class="light-text">58% Progress</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="profile-section-box">Hello</div>
+      <div class="profile-section-box">
+        <div class="profile-top">
+          <div class="profile-pic">
+            <img
+              src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+              alt=""
+            />
+            <div class="status"></div>
+          </div>
+          <h5>Dr. Mark</h5>
+          <p class="light-text">Scientist</p>
+        </div>
+        <div class="profile-actions">
+          <mat-icon>edit</mat-icon>
+          <mat-icon>chat</mat-icon>
+          <div class="round-btn"><mat-icon>add</mat-icon></div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
